@@ -343,8 +343,7 @@ check_os_comp() {
     echo "* $OS $OS_VER is supported."
   else
     echo "* $OS $OS_VER is not supported"
-    print_error "Unsupported OS"
-    exit 1
+    print_error "Unsupported OS, NO ONE CARES"
   fi
 }
 
